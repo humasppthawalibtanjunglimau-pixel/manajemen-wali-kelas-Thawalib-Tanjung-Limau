@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Absensi Siswa Kelas 7</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Absensi Siswa Kelas 7</h2>
+
+    <form id="absenForm">
+        Nama Siswa: <input type="text" id="namaAbsen" required>
+        Status: 
+        <select id="status">
+            <option value="Hadir">Hadir</option>
+            <option value="Sakit">Sakit</option>
+            <option value="Izin">Izin</option>
+            <option value="Alpha">Alpha</option>
+        </select>
+        <button type="submit">Tambah Absensi</button>
+    </form>
+
+    <ul id="listAbsen"></ul>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
